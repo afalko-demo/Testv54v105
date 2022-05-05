@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<md:EntityDescriptor entityID="http://www.okta.com/exk3m6jngj4VLoHCQ1d7" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrDCCApSgAwIBAgIGAYCRy5vTMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxFzAVBgNVBAMMDnNhbGVzZm9yY2UtZGV2MRwwGgYJKoZIhvcN
+AQkBFg1pbmZvQG9rdGEuY29tMB4XDTIyMDUwNTAxMTcwMVoXDTMyMDUwNTAxMTgwMVowgZYxCzAJ
+BgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0w
+CwYDVQQKDARPa3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEXMBUGA1UEAwwOc2FsZXNmb3JjZS1k
+ZXYxHDAaBgkqhkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDUvT97MhMCqedUNfju++7VuiwW05Zhqi7k+4c19gRdHQfQfqOnyKx6qdNDSHNFJCtD
+4k3YxUDgDfTUE5M1H/T3i4N5ctmJ1MqSpb8qeI4A6gUJSbSltII6MqH0JVsw8sownXXHPp/d6ljB
+Ecu1q1D9PITQjr2gpsdW+wNj3Tg9tmp2RSS0xlZ7SJ0+JsRY3LzwK930DVXezMZ/e3AfLRFswHR0
+8Z0kSA87YgSfUTSpv8qFU/h+1Y2FRF/gMFi1G8gOXkIo6ij7JqTD4aczXLDFHTtDU+2oakqgMf35
+RHzcn4iXQ2Plw2qnrt93rH31T8aY/X6iVCKzqZDamkKd+FKHAgMBAAEwDQYJKoZIhvcNAQELBQAD
+ggEBAIC3uryMJfcZ0d8QTg4VjA7GP1fn11IuHwccoYC/i2aPF3TPl4r7G5wG2JErGHtG9If1LZWm
+oBadM7jFE2DppSMQeGIBOJ1Kxz/0wtE+WD6DgDjj/mocvsj59OcNfIDFZgDY6aZNQrjElS8jp5V8
+AcYNgnjg6vltgd/fCE4RSZPbglHThba4H/d+PEJBQPC4IzcAtVpYVoK1EdXQB3vOrQhyB0g+kIgR
++bZnRhdhvaVf/I7OuDcDHj38I5PU4P47/MtFuoFfHmMUYvnVuWnYYXeh1syaVHv1GpNPAFCFbKSk
+GtQZn1UyLuENYWpYzG9ruZXA0Uj+s8k4gaFstDpBLQ8=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://salesforce-dev.oktapreview.com/app/salesforce-dev_testv54v105_1/exk3m6jngj4VLoHCQ1d7/sso/saml"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://salesforce-dev.oktapreview.com/app/salesforce-dev_testv54v105_1/exk3m6jngj4VLoHCQ1d7/sso/saml"/>
+  </md:IDPSSODescriptor>
+</md:EntityDescriptor>
